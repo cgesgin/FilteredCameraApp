@@ -429,4 +429,9 @@ CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj: \
  C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QVideoSink \
  C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qvideosink.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/QPixmap \
- C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QVideoFrame
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QVideoFrame \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QCheckBox \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qcheckbox.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\utilities.cpp \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/QImage

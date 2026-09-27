@@ -8,7 +8,9 @@
 #include <QVideoSink>
 #include <QPixmap>
 #include <QVideoFrame>
+#include <QCheckBox>
 
+#include "utilities.cpp"
 
 class CameraManager : public QMainWindow{
 
@@ -27,6 +29,9 @@ private:
     QLabel *videolabel;
     QVideoSink *videoSink;
 
+    QCheckBox *bwCheckBox;
+    QImage currentFrame;
+
     void setupIU(){
         central = new QWidget(this);
         layout = new QVBoxLayout(central);
@@ -36,7 +41,10 @@ private:
         videolabel->setStyleSheet("background-color:black");
         videolabel->setAlignment(Qt::AlignCenter);
 
+        bwCheckBox = new QCheckBox("Black and White Mode");
+
         layout->addWidget(videolabel);
+        layout->addWidget(bwCheckBox);
 
         setCentralWidget(central);
         setWindowTitle("Camera App");
@@ -76,6 +84,8 @@ private slots :
 
         cloneFrame.unmap();
 
-        videolabel->setPixmap(QPixmap::fromImage(image).scaled(videolabel->size(),Qt::KeepAspectRatio,Qt::SmoothTransformation));
+        currentFrame = bwCheckBox->isChecked() ? toGrayscale(image): image;
+
+        videolabel->setPixmap(QPixmap::fromImage(currentFrame).scaled(videolabel->size(),Qt::KeepAspectRatio,Qt::SmoothTransformation));
     }
 };

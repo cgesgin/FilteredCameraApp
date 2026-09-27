@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.obj.d"
   "CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj"
   "CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj.d"
   "FilteredCameraApp/appFilteredCameraApp.qmltypes"
   "appFilteredCameraApp.exe"
   "appFilteredCameraApp.exe.manifest"

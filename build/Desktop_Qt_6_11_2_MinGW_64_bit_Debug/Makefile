@@ -599,6 +599,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+utilities.obj: utilities.cpp.obj
+.PHONY : utilities.obj
+
+# target to build an object file
+utilities.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj
+.PHONY : utilities.cpp.obj
+
+utilities.i: utilities.cpp.i
+.PHONY : utilities.i
+
+# target to preprocess a source file
+utilities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.i
+.PHONY : utilities.cpp.i
+
+utilities.s: utilities.cpp.s
+.PHONY : utilities.s
+
+# target to generate assembly for a file
+utilities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.s
+.PHONY : utilities.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -654,6 +678,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... utilities.obj
+	@echo ... utilities.i
+	@echo ... utilities.s
 .PHONY : help
 
 

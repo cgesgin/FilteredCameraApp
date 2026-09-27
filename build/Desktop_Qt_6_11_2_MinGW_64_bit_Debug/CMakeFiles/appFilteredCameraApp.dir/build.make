@@ -216,11 +216,26 @@ CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\cameraManager.cpp -o CMakeFiles\appFilteredCameraApp.dir\cameraManager.cpp.s
 
+CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/flags.make
+CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/includes_CXX.rsp
+CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj: C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/utilities.cpp
+CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj -MF CMakeFiles\appFilteredCameraApp.dir\utilities.cpp.obj.d -o CMakeFiles\appFilteredCameraApp.dir\utilities.cpp.obj -c C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\utilities.cpp
+
+CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\utilities.cpp > CMakeFiles\appFilteredCameraApp.dir\utilities.cpp.i
+
+CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\utilities.cpp -o CMakeFiles\appFilteredCameraApp.dir\utilities.cpp.s
+
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/flags.make
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/includes_CXX.rsp
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj: .rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj -MF CMakeFiles\appFilteredCameraApp.dir\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.rcc\qmlcache\appFilteredCameraApp_qmlcache_loader.cpp.obj.d -o CMakeFiles\appFilteredCameraApp.dir\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.rcc\qmlcache\appFilteredCameraApp_qmlcache_loader.cpp.obj -c C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.rcc\qmlcache\appFilteredCameraApp_qmlcache_loader.cpp
 
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.i: cmake_force
@@ -235,7 +250,7 @@ CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/includes_CXX.rsp
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj: .rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj -MF CMakeFiles\appFilteredCameraApp.dir\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.rcc\qmlcache\appFilteredCameraApp_Main_qml.cpp.obj.d -o CMakeFiles\appFilteredCameraApp.dir\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.rcc\qmlcache\appFilteredCameraApp_Main_qml.cpp.obj -c C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.rcc\qmlcache\appFilteredCameraApp_Main_qml.cpp
 
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.i: cmake_force
@@ -250,7 +265,7 @@ CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/includes_CXX.rsp
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj: .qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj: CMakeFiles/appFilteredCameraApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj -MF CMakeFiles\appFilteredCameraApp.dir\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.qt\rcc\qrc_appFilteredCameraApp_raw_qml_0.cpp.obj.d -o CMakeFiles\appFilteredCameraApp.dir\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.qt\rcc\qrc_appFilteredCameraApp_raw_qml_0.cpp.obj -c C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.qt\rcc\qrc_appFilteredCameraApp_raw_qml_0.cpp
 
 CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.i: cmake_force
@@ -268,6 +283,7 @@ appFilteredCameraApp_OBJECTS = \
 "CMakeFiles/appFilteredCameraApp.dir/appfilteredcameraapp_qmltyperegistrations.cpp.obj" \
 "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.obj" \
 "CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.obj" \
+"CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj" \
 "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj" \
 "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj"
@@ -280,6 +296,7 @@ appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/appfilteredcameraapp_qmltyperegistrations.cpp.obj
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.obj
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.obj
+appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/utilities.cpp.obj
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj
@@ -297,7 +314,7 @@ appFilteredCameraApp.exe: appFilteredCameraApp.exe.manifest
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/linkLibs.rsp
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/objects1.rsp
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable appFilteredCameraApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable appFilteredCameraApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appFilteredCameraApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
