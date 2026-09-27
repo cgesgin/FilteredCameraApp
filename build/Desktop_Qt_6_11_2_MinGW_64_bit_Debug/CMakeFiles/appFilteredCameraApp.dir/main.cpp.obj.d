@@ -425,4 +425,8 @@ CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj: \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qpicture.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qurl.h
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QVideoSink \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qvideosink.h \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/QPixmap \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QVideoFrame
