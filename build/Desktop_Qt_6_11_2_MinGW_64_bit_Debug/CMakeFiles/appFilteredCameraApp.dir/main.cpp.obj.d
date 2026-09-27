@@ -405,4 +405,24 @@ CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj: \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlayout.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QWidget
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QCamera \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qcamera.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qcameradevice.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qtvideo.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qvideoframe.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qvideoframeformat.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QMediaCaptureSession \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qmediacapturesession.h \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/QMediaDevices \
+ C:/Qt/6.11.2/mingw_64/include/QtMultimedia/qmediadevices.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qurl.h

@@ -84,6 +84,7 @@ appfilteredcameraapp_qmltyperegistrations.cpp: C:/Qt/6.11.2/mingw_64/metatypes/q
 appfilteredcameraapp_qmltyperegistrations.cpp: C:/Qt/6.11.2/mingw_64/metatypes/qt6gui_metatypes.json
 appfilteredcameraapp_qmltyperegistrations.cpp: C:/Qt/6.11.2/mingw_64/metatypes/qt6opengl_metatypes.json
 appfilteredcameraapp_qmltyperegistrations.cpp: C:/Qt/6.11.2/mingw_64/metatypes/qt6widgets_metatypes.json
+appfilteredcameraapp_qmltyperegistrations.cpp: C:/Qt/6.11.2/mingw_64/metatypes/qt6multimedia_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target appFilteredCameraApp"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/FilteredCameraApp/appFilteredCameraApp.qmltypes --import-name=FilteredCameraApp --major-version=254 --minor-version=254 @C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/qmltypes/appFilteredCameraApp_foreign_types.txt -o C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/appfilteredcameraapp_qmltyperegistrations.cpp C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/meta_types/qt6appfilteredcameraapp_metatypes.json
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/qmltypes
@@ -285,6 +286,7 @@ appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6
 appFilteredCameraApp.exe: CMakeFiles/appFilteredCameraApp.dir/build.make
 appFilteredCameraApp.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Quick.a
 appFilteredCameraApp.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a
+appFilteredCameraApp.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Multimedia.a
 appFilteredCameraApp.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6OpenGL.a
 appFilteredCameraApp.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Qml.a
 appFilteredCameraApp.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Network.a
