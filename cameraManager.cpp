@@ -9,6 +9,8 @@
 #include <QPixmap>
 #include <QVideoFrame>
 #include <QCheckBox>
+#include <QPushButton>
+#include <QFileDialog>
 
 #include "utilities.cpp"
 
@@ -32,6 +34,8 @@ private:
     QCheckBox *bwCheckBox;
     QImage currentFrame;
 
+    QPushButton *takePicButton;
+
     void setupIU(){
         central = new QWidget(this);
         layout = new QVBoxLayout(central);
@@ -42,9 +46,11 @@ private:
         videolabel->setAlignment(Qt::AlignCenter);
 
         bwCheckBox = new QCheckBox("Black and White Mode");
+        takePicButton = new QPushButton("Take Picture");
 
         layout->addWidget(videolabel);
         layout->addWidget(bwCheckBox);
+        layout->addWidget(takePicButton);
 
         setCentralWidget(central);
         setWindowTitle("Camera App");
@@ -68,6 +74,7 @@ private:
         session->setVideoSink(videoSink);
 
         connect(videoSink,&QVideoSink::videoFrameChanged,this,&CameraManager::videoFrameChanged);
+        connect(takePicButton,&QPushButton::clicked,this,&CameraManager::captureImage);
 
         camera->start();
 
@@ -87,5 +94,19 @@ private slots :
         currentFrame = bwCheckBox->isChecked() ? toGrayscale(image): image;
 
         videolabel->setPixmap(QPixmap::fromImage(currentFrame).scaled(videolabel->size(),Qt::KeepAspectRatio,Qt::SmoothTransformation));
+    }
+
+    void captureImage() {
+
+        if(currentFrame.isNull())
+            return;
+        QString path= QFileDialog::getSaveFileName(this,"Save Image","","Images(*png,*jpg)");
+
+        if (!path.endsWith(".png") && !path.endsWith(".jpg") && !path.endsWith(".jpeg"))
+            path += ".png";
+
+        if(!path.isEmpty()){
+            currentFrame.save(path);
+        }
     }
 };
