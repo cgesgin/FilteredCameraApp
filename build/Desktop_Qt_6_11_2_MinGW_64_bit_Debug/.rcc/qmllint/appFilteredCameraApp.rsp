@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug
+-I
+C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/FilteredCameraApp
+-I
+C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug
+-I
+C:/Qt/6.11.2/mingw_64/qml
+--resource
+C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qmake_FilteredCameraApp.qrc
+--resource
+C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/appFilteredCameraApp_raw_qml_0.qrc
+C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/Main.qml

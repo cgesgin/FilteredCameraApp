@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_FilteredCameraApp.cpp"
+  ".rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp"
+  ".rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp"
+  "CMakeFiles/appFilteredCameraApp_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appFilteredCameraApp_autogen.dir/ParseCache.txt"
+  "appFilteredCameraApp_autogen"
+  "CMakeFiles/appFilteredCameraApp.dir/appFilteredCameraApp_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/appFilteredCameraApp_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/appfilteredcameraapp_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/appfilteredcameraapp_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/cameraManager.cpp.obj.d"
+  "CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj"
+  "CMakeFiles/appFilteredCameraApp.dir/main.cpp.obj.d"
+  "FilteredCameraApp/appFilteredCameraApp.qmltypes"
+  "appFilteredCameraApp.exe"
+  "appFilteredCameraApp.exe.manifest"
+  "appFilteredCameraApp.pdb"
+  "appFilteredCameraApp_autogen/mocs_compilation.cpp"
+  "appFilteredCameraApp_autogen/timestamp"
+  "appfilteredcameraapp_qmltyperegistrations.cpp"
+  "libappFilteredCameraApp.dll.a"
+  "meta_types/appFilteredCameraApp_json_file_list.txt"
+  "meta_types/appFilteredCameraApp_json_file_list.txt.timestamp"
+  "meta_types/qt6appfilteredcameraapp_metatypes.json"
+  "meta_types/qt6appfilteredcameraapp_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appFilteredCameraApp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

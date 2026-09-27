@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-446f41c267fee1ad459c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FilteredCameraApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-977008d7af677ee35255.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-89ef5c95d01eb7dd88c3.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-04e3f43da04ad5a7356f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-9d0d802ee185a6b900e6.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-95daf7ca629d9ec119b0.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp-Debug-aa4c1b2f29e6290366ab.json",
+					"name" : "appFilteredCameraApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_autogen-Debug-208a8ea7544cb9517371.json",
+					"name" : "appFilteredCameraApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_autogen_timestamp_deps-Debug-ea2b8c64766ce24322d5.json",
+					"name" : "appFilteredCameraApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_copy_qml-Debug-622f5ba0eb6e135f98c9.json",
+					"name" : "appFilteredCameraApp_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_copy_res-Debug-24d70cb2799160825020.json",
+					"name" : "appFilteredCameraApp_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_qmlimportscan-Debug-d1b74cacaf386d385802.json",
+					"name" : "appFilteredCameraApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_qmllint-Debug-eee9f32821ddfda20e10.json",
+					"name" : "appFilteredCameraApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_qmllint_json-Debug-35003249c3ac9e279819.json",
+					"name" : "appFilteredCameraApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_qmllint_module-Debug-f48bfbaf9a55901e0ced.json",
+					"name" : "appFilteredCameraApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFilteredCameraApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFilteredCameraApp_qmltyperegistration-Debug-e1864b1d13f3eb16389e.json",
+					"name" : "appFilteredCameraApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-779cb9133f95ae3e7371.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-35085f724684416f1bf9.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-37cab2a9829ee01fa7b9.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appFilteredCameraApp_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appFilteredCameraApp_aotstats_target-Debug-996e43705ddac9ba8f4e.json",
+					"name" : "module_appFilteredCameraApp_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug",
+		"source" : "C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
