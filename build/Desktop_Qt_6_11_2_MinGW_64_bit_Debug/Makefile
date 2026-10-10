@@ -343,19 +343,6 @@ generate_qmlls_build_ini_file/fast:
 .PHONY : generate_qmlls_build_ini_file/fast
 
 #=============================================================================
-# Target rules for targets named module_appFilteredCameraApp_aotstats_target
-
-# Build rule for target.
-module_appFilteredCameraApp_aotstats_target: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 module_appFilteredCameraApp_aotstats_target
-.PHONY : module_appFilteredCameraApp_aotstats_target
-
-# fast build rule for target.
-module_appFilteredCameraApp_aotstats_target/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\module_appFilteredCameraApp_aotstats_target.dir\build.make CMakeFiles/module_appFilteredCameraApp_aotstats_target.dir/build
-.PHONY : module_appFilteredCameraApp_aotstats_target/fast
-
-#=============================================================================
 # Target rules for targets named all_aotstats
 
 # Build rule for target.
@@ -455,30 +442,6 @@ appfilteredcameraapp_qmltyperegistrations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/appfilteredcameraapp_qmltyperegistrations.cpp.s
 .PHONY : appfilteredcameraapp_qmltyperegistrations.cpp.s
 
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.obj: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.obj
-
-# target to build an object file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.obj
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.i: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.i
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.i
-
-# target to preprocess a source file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.i
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.i
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.s: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.s
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.s
-
-# target to generate assembly for a file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.s
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp.s
-
 build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.obj: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.obj
 
@@ -502,54 +465,6 @@ build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.s
 build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.s
 .PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp.s
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.obj: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.obj
-
-# target to build an object file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.obj
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.i: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.i
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.i
-
-# target to preprocess a source file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.i
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.i
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.s: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.s
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.s
-
-# target to generate assembly for a file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.s
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp.s
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.obj: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.obj
-
-# target to build an object file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.obj
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.i: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.i
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.i
-
-# target to preprocess a source file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.i
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.i
-
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.s: build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.s
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.s
-
-# target to generate assembly for a file
-build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appFilteredCameraApp.dir\build.make CMakeFiles/appFilteredCameraApp.dir/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.s
-.PHONY : build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp.s
 
 cameraManager.obj: cameraManager.cpp.obj
 .PHONY : cameraManager.obj
@@ -652,7 +567,6 @@ help:
 	@echo ... clean_qml_context_properties
 	@echo ... dump_qml_context_properties
 	@echo ... generate_qmlls_build_ini_file
-	@echo ... module_appFilteredCameraApp_aotstats_target
 	@echo ... appFilteredCameraApp
 	@echo ... appFilteredCameraApp_autogen/mocs_compilation.obj
 	@echo ... appFilteredCameraApp_autogen/mocs_compilation.i
@@ -660,18 +574,9 @@ help:
 	@echo ... appfilteredcameraapp_qmltyperegistrations.obj
 	@echo ... appfilteredcameraapp_qmltyperegistrations.i
 	@echo ... appfilteredcameraapp_qmltyperegistrations.s
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.obj
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.i
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.s
 	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.obj
 	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.i
 	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.s
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.obj
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.i
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.s
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.obj
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.i
-	@echo ... build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.s
 	@echo ... cameraManager.obj
 	@echo ... cameraManager.i
 	@echo ... cameraManager.s

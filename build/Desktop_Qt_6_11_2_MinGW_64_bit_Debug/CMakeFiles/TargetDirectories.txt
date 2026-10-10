@@ -12,7 +12,6 @@ C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_6
 C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/appFilteredCameraApp_copy_qml.dir
 C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/appFilteredCameraApp_copy_res.dir
 C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/generate_qmlls_build_ini_file.dir
-C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/module_appFilteredCameraApp_aotstats_target.dir
 C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/all_aotstats.dir
 C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/appFilteredCameraApp_qmlimportscan.dir
 C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir

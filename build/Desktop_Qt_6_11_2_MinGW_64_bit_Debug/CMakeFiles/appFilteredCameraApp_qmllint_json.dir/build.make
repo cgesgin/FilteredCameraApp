@@ -66,9 +66,7 @@ include CMakeFiles/appFilteredCameraApp_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/appFilteredCameraApp_qmllint_json.dir/progress.make
 
 CMakeFiles/appFilteredCameraApp_qmllint_json: C:/Qt/6.11.2/mingw_64/bin/qmllint.exe
-CMakeFiles/appFilteredCameraApp_qmllint_json: C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/Main.qml
 CMakeFiles/appFilteredCameraApp_qmllint_json: .rcc/qmllint/appFilteredCameraApp_json.rsp
-	cd /d C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp && call C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmllint.exe @C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmllint/appFilteredCameraApp_json.rsp
 
 appFilteredCameraApp_qmllint_json: CMakeFiles/appFilteredCameraApp_qmllint_json
 appFilteredCameraApp_qmllint_json: CMakeFiles/appFilteredCameraApp_qmllint_json.dir/build.make

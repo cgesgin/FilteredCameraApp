@@ -68,7 +68,6 @@ include CMakeFiles/appFilteredCameraApp_copy_qml.dir/progress.make
 CMakeFiles/appFilteredCameraApp_copy_qml: .qt/appFilteredCameraApp_qml.txt
 
 .qt/appFilteredCameraApp_qml.txt: C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
-.qt/appFilteredCameraApp_qml.txt: C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/Main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appFilteredCameraApp qml sources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/appFilteredCameraApp_qml.cmake -P C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

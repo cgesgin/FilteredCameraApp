@@ -69,8 +69,6 @@ CMakeFiles/appFilteredCameraApp_qmlimportscan: .qt/qml_imports/appFilteredCamera
 
 .qt/qml_imports/appFilteredCameraApp_build.cmake: C:/Qt/6.11.2/mingw_64/bin/qmlimportscanner.exe
 .qt/qml_imports/appFilteredCameraApp_build.cmake: .qt/rcc/qmake_FilteredCameraApp.qrc
-.qt/qml_imports/appFilteredCameraApp_build.cmake: .qt/rcc/appFilteredCameraApp_raw_qml_0.qrc
-.qt/qml_imports/appFilteredCameraApp_build.cmake: C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/Main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appFilteredCameraApp"
 	cd /d C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp && call C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmlimportscanner.exe @C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/qml_imports/appFilteredCameraApp_build.rsp
 

@@ -1,6 +1,5 @@
 module FilteredCameraApp
 typeinfo appFilteredCameraApp.qmltypes
 prefer :/qt/qml/FilteredCameraApp/
-Main 254.0 Main.qml
 depends QtQuick
 

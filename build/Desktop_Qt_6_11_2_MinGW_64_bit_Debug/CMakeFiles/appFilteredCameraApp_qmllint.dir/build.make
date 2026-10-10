@@ -66,9 +66,8 @@ include CMakeFiles/appFilteredCameraApp_qmllint.dir/compiler_depend.make
 include CMakeFiles/appFilteredCameraApp_qmllint.dir/progress.make
 
 CMakeFiles/appFilteredCameraApp_qmllint: C:/Qt/6.11.2/mingw_64/bin/qmllint.exe
-CMakeFiles/appFilteredCameraApp_qmllint: C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/Main.qml
 CMakeFiles/appFilteredCameraApp_qmllint: .rcc/qmllint/appFilteredCameraApp.rsp
-	cd /d C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp && call C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmllint.exe @C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmllint/appFilteredCameraApp.rsp
+	cd /d C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E echo "Nothing to do for target appFilteredCameraApp_qmllint."
 
 appFilteredCameraApp_qmllint: CMakeFiles/appFilteredCameraApp_qmllint
 appFilteredCameraApp_qmllint: CMakeFiles/appFilteredCameraApp_qmllint.dir/build.make

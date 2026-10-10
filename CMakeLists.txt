@@ -26,7 +26,7 @@ qt_add_executable(appFilteredCameraApp
 qt_add_qml_module(appFilteredCameraApp
     URI FilteredCameraApp
     QML_FILES
-        Main.qml
+
         SOURCES cameraManager.cpp
         SOURCES utilities.cpp
 )

@@ -68,10 +68,10 @@ include CMakeFiles/all_aotstats.dir/progress.make
 CMakeFiles/all_aotstats: .rcc/qmlcache/all_aotstats.txt
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cat C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.txt
 
-.rcc/qmlcache/all_aotstats.aotstats: .rcc/qmlcache/module_appFilteredCameraApp.aotstats
+.rcc/qmlcache/all_aotstats.aotstats:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\cgesgin\Desktop\C++UI\FilteredCameraApp\build\Desktop_Qt_6_11_2_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/all_aotstats.aotstats, .rcc/qmlcache/all_aotstats.txt"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmlaotstats.exe aggregate C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.aotstatslist C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.aotstats
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmlaotstats.exe format C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.aotstats C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.txt
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.2/mingw_64/bin/qmlaotstats.exe format C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.aotstats C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/all_aotstats.txt --empty-modules C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/aotstats_empty_modules.txt
 
 .rcc/qmlcache/all_aotstats.txt: .rcc/qmlcache/all_aotstats.aotstats
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\all_aotstats.txt

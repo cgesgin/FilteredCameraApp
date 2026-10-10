@@ -1195,7 +1195,6 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
-		"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/qml_imports/appFilteredCameraApp_conf.cmake",
 		"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
@@ -1280,10 +1279,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp",
 		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp",
-		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp",
-		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp",
 		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/appfilteredcameraapp_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -1316,10 +1312,7 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_appFilteredCameraApp_raw_qml_0.cpp",
 		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_FilteredCameraApp.cpp",
-		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_Main_qml.cpp",
-		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/.rcc/qmlcache/appFilteredCameraApp_qmlcache_loader.cpp",
 		"C:/Users/cgesgin/Desktop/C++UI/FilteredCameraApp/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/appfilteredcameraapp_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],
